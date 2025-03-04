@@ -29,7 +29,7 @@ pip install -r requirement.txt
 
 
 ### **RabbitMQ Service**
-- Use an external RabbitMQ provider such as ([CloudAMQP](https://www.cloudamqp.com/)). or a self-hosted RabbitMQ server.
+- Use an external RabbitMQ provider such as ([CloudAMQP](https://www.cloudamqp.com/)) or a self-hosted RabbitMQ server.
 - Configure the RabbitMQ connection in the system.
 
 ### Setting Up RabbitMQ on CloudAMQP
@@ -59,14 +59,11 @@ After completing these steps, you can use RabbitMQ to publish and consume messag
 
 ---
 
-Now you can insert this section into your **README.md** file for a complete and detailed guide on setting up an external **RabbitMQ** on **CloudAMQP**.
-
-
 ## How to Run the Agents
-You sholud run this agents on XpressAI platform to talk with Receptionist Agent
+You need to run these agents on the XpressAI platform to interact with the Receptionist Agent.
 
 ### **1. Start the Receptionist Agent**
-You need to create the **Receptionist Agent** in XpressAI platform as an agent to be able to talk to it and add tasks to the database.
+You need to create the **Receptionist Agent** on the XpressAI platform as an agent to be able to talk to it and add tasks to the database.
 
 ### **2. Start the Timer.py file**
 
